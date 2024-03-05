@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FirtsApp</string>
+    <string name="Email">Email</string>
+    <string name="Telefone">Telefone</string>
+    <string name="DigiteEmail">Digite seu Email:</string>
+    <string name="DigiteTelefone">Digite seu telefone:</string>
+    <string name="Botão">Enviar</string>
+
+    <string name="Nome">Nome</string>
+    <string name="Idade">Idade</string>
+    <string name="DigiteNome">Digite seu nome:</string>
+    <string name="DigiteIdade">Digite sua idade:</string>
+    <string name="Enviar">Enviar</string>
+
 </resources>
