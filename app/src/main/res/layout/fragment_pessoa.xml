@@ -3,10 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.CalculoFragment"
+    tools:context=".view.PessoaFragment"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Masculino"/>
+
+
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feminino"/>
+    </RadioGroup>
+
+
     <TextView
         android:id="@+id/tvNome"
         android:layout_width="match_parent"
@@ -45,5 +66,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Botão"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:visibility="invisible"/>
 </LinearLayout>

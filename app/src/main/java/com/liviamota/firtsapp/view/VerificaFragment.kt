@@ -5,8 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.liviamota.firtsapp.R
-import com.liviamota.firtsapp.databinding.FragmentCalculoBinding
 import com.liviamota.firtsapp.databinding.FragmentVerificaBinding
 import java.time.LocalDateTime
 
